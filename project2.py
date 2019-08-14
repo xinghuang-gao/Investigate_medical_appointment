@@ -10,20 +10,7 @@
 # <li><a href="#wrangling">Data Wrangling</a></li>
 # <li><a href="#eda">Exploratory Data Analysis</a></li>
 # <li><a href="#conclusions">Conclusions</a></li>
-# </ul>
 
-# <a id='intro'></a>
-# ## Introduction
-
-# In[1]:
-
-
-# Use this cell to set up import statements for all of the packages that you
-#   plan to use.
-
-# Remember to include a 'magic word' so that your visualizations are plotted
-#   inline with the notebook. See this page for more:
-#   http://ipython.readthedocs.io/en/stable/interactive/magics.html
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -413,5 +400,4 @@ scatter_matrix = sns.pairplot(patient, vars=['age', 'hypertension','alcoholism',
 # 
 # 
 # - It will be interested to know if the occurence of diabetes and hypertension is higher in healthy people as compared to those patient data.
-# 
-# 
+#
